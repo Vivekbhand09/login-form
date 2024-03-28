@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8fd5d5;
+}
+
+.container {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.container h2 {
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.container form input {
+    font-weight: lighter;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container form .username {
+    margin-bottom: .7rem;
+}
+
+.container form i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.userarea{
+    padding:10px;
+}
+.forgotpassword{
+    display:flex;
+    align-content: end;
+    justify-content: end;
+    padding:15px;
+    font-weight: lighter;
+    cursor:pointer;
+
+
+}
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .8rem;
+}
+
+.btn{
+    border:none;
+    padding:13px;
+    border-radius: 13px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor:pointer;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    margin-bottom: 3rem;
+    color: #fff;
+}
+.btn:hover
+{
+    background: linear-gradient(to right, #c5ba68, #44d0e3);
+    border:3px solid  orange;
+    
+}
+
+.formbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formbottom ul {
+    margin-bottom: 3rem;
+}
+
+.formbottom p {
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.flexul{
+    list-style: none;
+    display:flex;
+    margin-top: 8px;
+    justify-content:space-between;
+    align-items:center;
+}
+.flexUl a {
+    text-decoration: none;
+}
+.flexUl li i {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.fa-google {
+    background-color: orangered;
+}
+
+.fa-twitter {
+    background-color: rgb(43, 71, 228);
+}
+
+.fa-facebook-f {
+    background-color: darkblue;
+}
+
+
+.signup-btn
+{
+    width:150px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    background-color: orange;
+    color:white;
+    font-size:medium;
+    margin-bottom: 10px;
+}
+.signup-btn:hover{
+    
+border:3px solid rgb(255, 102, 0);
+}
